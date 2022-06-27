@@ -1,0 +1,15 @@
+@import 'breakpoints.scss';
+
+*{
+    box-sizing: border-box;
+}
+.page{
+    width: 1400px;
+    margin: auto;
+}
+.header {
+    width: 1140px;
+    height: 62px;
+    margin: auto;
+    display: flex;
+}
