@@ -4,7 +4,6 @@
 body {
   background-color: #141b1c;
   display: flex;
-  align-items: center;
   justify-content: center;
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -58,6 +57,7 @@ body {
   text-align: center;
   margin: 40px 26px 40px 26px;
 }
+
 .list-item {
   list-style-type: none;
   font-size: 15px;
@@ -71,6 +71,31 @@ body {
 .list-item__description:nth-child(odd) {
   background-color: #2a3438;
 }
+li {
+  position: relative;
+}
+
+.list-item__decoration3 {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  background-repeat: no-repeat;
+  padding: 19px 22px 18px 22px;
+  left: 5.79%;
+  position: absolute;
+}
+.list-item__decoration1 {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  background-repeat: no-repeat;
+  padding: 19px 22px 18px 22px;
+  left: 5.79%;
+  position: absolute;
+}
+.list-item__decoration2 {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  background-repeat: no-repeat;
+  padding: 19px 22px 18px 22px;
+  left: 5.79%;
+  position: absolute;
+}
 .button-position {
   display: flex;
   align-items: center;
@@ -80,7 +105,6 @@ body {
 .button {
   border-radius: 20px;
   height: 40px;
-  top: calc(50% - 17px / 2 - 0.5px);
   font-weight: 400;
   font-size: 14px;
   text-align: center;
@@ -96,4 +120,13 @@ body {
 .button-style3 {
   background-color: #ec632a;
 }
-
+.popular {
+  width: 25.01px;
+  height: 147.08px;
+  top: 18.09px;
+  background-color: #dc3f45;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: 43%;
+  top: 0.3%;
+}
