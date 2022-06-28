@@ -148,13 +148,11 @@ li {
 
 .popular {
   position: absolute;
-  width: 25.01px;
-  height: 147.08px;
+  transform: rotate(45deg);
   top: 18.09px;
   background-color: #dc3f45;
-  transform: rotate(-45deg);
-  right: 35%;
-  top: 0.5%;
+  right: 2.5%;
+  top: 5%;
 }
 
 /*# sourceMappingURL=styles.css.map */
