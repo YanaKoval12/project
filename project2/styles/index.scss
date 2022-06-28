@@ -12,6 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .price-card {
+  position: relative;
   width: 380px;
   height: 770px;
   background-color: $background-color__card;
@@ -43,6 +44,7 @@ body {
   margin-top: 20px;
   font-size: 55px;
   font-weight: 700;
+  margin: 33px 0px 40px 0px;
 }
 .price-card__price-color1 {
   background-color: $background-color__price1;
@@ -131,6 +133,6 @@ li {
   top: 18.09px;
   background-color: $color-popular;
   transform: rotate(-45deg);
-  right: 41%;
-  top: 3%;
+  right: 35%;
+  top: 0.5%;
 }
