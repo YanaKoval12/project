@@ -1,64 +1,68 @@
+@import "variables.scss";
 * {
   box-sizing: border-box;
 }
 body {
-  background-color: #141b1c;
   display: flex;
+  min-height: 100vh;
+  align-items: center;
   justify-content: center;
-  color: #fff;
+  background-color: $background-color__page;
+  color: $color-text;
   font-family: "Montserrat", sans-serif;
 }
-.card-block {
+.price-card {
   width: 380px;
   height: 770px;
-  margin: auto;
-  background-color: #334247;
+  background-color: $background-color__card;
   margin: 18px;
 }
-.basic-name__items {
+.price-card__title {
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 33px;
   font-size: 35px;
+  line-height: 43px;
 }
-.second-name {
+.price-card__second-title {
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 20px;
+  line-height: 24px;
 }
-.price {
-  width: 380px;
-  line-height: 105px;
+.price-card__price {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 380px;
+  line-height: 105px;
   margin-top: 20px;
   font-size: 55px;
   font-weight: 700;
 }
-.price-sum1 {
-  background-color: #5bb189;
+.price-card__price-color1 {
+  background-color: $background-color__price1;
 }
-.price-sum2 {
-  background-color: #3a6ba5;
+.price-card__price-color2 {
+  background-color: $background-color__price2;
 }
-.price-sum3 {
-  background-color: #ec632a;
+.price-card__price-color3 {
+  background-color: $background-color__price3;
 }
-.text {
+.price-card__description {
   display: flex;
+  text-align: center;
   font-size: 15px;
   font-weight: 300;
   line-height: 18.29px;
-  text-align: center;
   margin: 40px 26px 40px 26px;
 }
 
-.list-item {
+.price-card__list-item {
   list-style-type: none;
   font-size: 15px;
   font-weight: 300;
@@ -74,14 +78,6 @@ body {
 li {
   position: relative;
 }
-
-.list-item__decoration3 {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-  background-repeat: no-repeat;
-  padding: 19px 22px 18px 22px;
-  left: 5.79%;
-  position: absolute;
-}
 .list-item__decoration1 {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
   background-repeat: no-repeat;
@@ -96,13 +92,20 @@ li {
   left: 5.79%;
   position: absolute;
 }
+.list-item__decoration3 {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  background-repeat: no-repeat;
+  padding: 19px 22px 18px 22px;
+  left: 5.79%;
+  position: absolute;
+}
 .button-position {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 39px 113.37px 40px 112px;
 }
-.button {
+.price-card__order-btn {
   border-radius: 20px;
   height: 40px;
   font-weight: 400;
@@ -110,23 +113,24 @@ li {
   text-align: center;
   width: 154.63px;
   border-style: none;
+  color: $color-text;
 }
-.button-style1 {
-  background-color: #5bb189;
+.price-card__order-btn__color1 {
+  background-color: $background-color__price1;
 }
-.button-style2 {
-  background-color: #3a6ba5;
+.price-card__order-btn__color2 {
+  background-color: $background-color__price2;
 }
-.button-style3 {
-  background-color: #ec632a;
+.price-card__order-btn__color3 {
+  background-color: $background-color__price3;
 }
 .popular {
+  position: absolute;
   width: 25.01px;
   height: 147.08px;
   top: 18.09px;
-  background-color: #dc3f45;
+  background-color: $color-popular;
   transform: rotate(-45deg);
-  position: absolute;
-  right: 43%;
-  top: 0.3%;
+  right: 41%;
+  top: 3%;
 }
