@@ -4,9 +4,11 @@
 }
 body {
   display: flex;
+  gap: 18px;
   min-height: 100vh;
   align-items: center;
-  justify-content: center;  background-color: $background-color__page;
+  justify-content: center;
+  background-color: $background-color__page;
   color: $color-text;
   font-family: "Montserrat", sans-serif;
 }
@@ -15,7 +17,7 @@ body {
   width: 380px;
   height: 770px;
   background-color: $background-color__card;
-  margin: 0px 0px 0px 18px;
+  overflow: hidden;
 }
 .price-card__title {
   font-weight: 700;
@@ -128,8 +130,11 @@ li {
 .popular {
   position: absolute;
   transform: rotate(45deg);
-  top: 18.09px;
+  text-align: center;
+  right: -80px;
+  width: 250px;
+  height: 20px;
+  top: 30px;
   background-color: $color-popular;
-  right: 2.5%;
-  top: 5%;
+  text-transform: uppercase;
 }

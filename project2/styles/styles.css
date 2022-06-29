@@ -4,6 +4,7 @@
 
 body {
   display: flex;
+  gap: 18px;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
@@ -17,7 +18,7 @@ body {
   width: 380px;
   height: 770px;
   background-color: #334247;
-  margin: 0px 0px 0px 18px;
+  overflow: hidden;
 }
 
 .price-card__title {
@@ -149,10 +150,13 @@ li {
 .popular {
   position: absolute;
   transform: rotate(45deg);
-  top: 18.09px;
+  text-align: center;
+  right: -80px;
+  width: 250px;
+  height: 20px;
+  top: 30px;
   background-color: #dc3f45;
-  right: 2.5%;
-  top: 5%;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */
