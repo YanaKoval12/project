@@ -6,8 +6,7 @@ body {
   display: flex;
   min-height: 100vh;
   align-items: center;
-  justify-content: center;
-  background-color: $background-color__page;
+  justify-content: center;  background-color: $background-color__page;
   color: $color-text;
   font-family: "Montserrat", sans-serif;
 }
@@ -16,7 +15,7 @@ body {
   width: 380px;
   height: 770px;
   background-color: $background-color__card;
-  margin-left: 18px;
+  margin: 0px 0px 0px 18px;
 }
 .price-card__title {
   font-weight: 700;

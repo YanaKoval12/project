@@ -17,7 +17,7 @@ body {
   width: 380px;
   height: 770px;
   background-color: #334247;
-  margin-left: 18px;
+  margin: 0px 0px 0px 18px;
 }
 
 .price-card__title {
