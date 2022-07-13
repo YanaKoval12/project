@@ -1,0 +1,24 @@
+.action-button {
+  background-color: #3040c4;
+  width: 160px;
+  color: #fff;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+}
+.hide_desktop {
+  @include for-large-up {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .hide_mobile {
+    display: none;
+  }
+  .headline__action-btn {
+    width: 100%;
+  }
+}
