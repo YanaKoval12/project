@@ -1,0 +1,38 @@
+@import "breakpoints.scss";
+@import "header.scss";
+@import "head-line.scss";
+@import "footer.scss";
+@import "works.scss";
+@import "features.scss";
+@import "cases.scss";
+@import "vangoux.scss";
+@import "use-code.scss";
+@import "our-story.scss";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.page {
+  margin: auto;
+  max-width: 1400px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+  background-repeat: no-repeat;
+}
+.page__line {
+  margin-left: 120px;
+  width: 80px;
+  height: 2px;
+  background-color: #1968fc;
+  margin: 0;
+  margin-top: 10px;
+}
+.page__title {
+  margin: -30px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  text-transform: uppercase;
+}

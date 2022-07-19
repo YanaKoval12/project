@@ -1,0 +1,45 @@
+.our-story{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    @include for-large-up {
+        max-width: 1400px;
+        margin: auto;
+        padding-left: 160px ;
+        margin-right: 170px;
+    }
+    &__main-content {
+        margin-bottom: 61px;
+        @include for-large-up {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 120px;
+        }
+    }
+    &__subtitle {
+        display: flex;
+        margin-top: 52px;
+    }
+    &__description {
+        margin-left: 20px;
+    }
+    &__icon {
+        width: 40px;
+        height: 33px;
+    }
+    &__title {
+        font-size: 20px;
+        line-height: 40px;
+        width: 600;
+        margin-bottom: 20px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 400px;
+    }
+    &__link {
+        color: black;
+    }
+}

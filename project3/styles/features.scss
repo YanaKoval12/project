@@ -1,0 +1,76 @@
+.features {
+  font-family: "Montserrat", sans-serif;
+  padding: 60px;
+
+  @include for-large-up {
+    padding: 160px;
+    margin: auto;
+    max-width: 1400px;
+  }
+  &__section {
+    @include for-large-up {
+      display: flex;
+      gap: 74px;
+    }
+  }
+  &__content {
+    display: flex;
+  }
+  &__title {
+    padding-top: 125px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: uppercase;
+  }
+  &__cards {
+    max-height: 200px;
+    max-width: 520px;
+    background-color: #fff;
+    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+    @include for-large-up {
+      max-height: 290px;
+      max-width: 320px;
+    }
+  }
+  &__subtitle {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #11223f;
+    background-color: #f3f7ff;
+
+    @include for-large-up {
+    }
+  }
+  &__img {
+    height: 80px;
+    width: 80px;
+
+    @include for-large-up {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  &__text {
+    margin: 0;
+    padding: 30px 40px 10px 40px;
+    font-size: 16px;
+    line-height: 30px;
+
+    @include for-large-up {
+      padding: 40px 40px 20px 40px;
+    }
+  }
+}
+.features-card__first {
+  margin-top: 48px;
+}
+.features-card__second {
+  margin-top: 100px;
+}
+.features-card__third {
+  margin-top: 140px;
+}

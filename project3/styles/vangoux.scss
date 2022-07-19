@@ -1,0 +1,34 @@
+.vangoux {
+    padding: 60px;
+
+    @include for-large-up {
+        padding-left: 160px;
+    }
+    &__title-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    &__card {
+        margin-top: 38px;
+        display: flex;
+        width: 580px;
+        height: 80px;
+        background-color: #fff;
+        box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+
+        @include for-large-up {
+            max-width: 540px;
+            max-height: 80px;
+        }
+    }
+    &__img {
+        width: 80px;
+        height: 80px;
+    }
+    &__text {
+        padding-left: 20px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+}

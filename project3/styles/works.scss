@@ -1,0 +1,127 @@
+.works {
+  margin-left: 60px;
+  @include for-large-up {
+    justify-content: center;
+    margin-left: 160px;
+  }
+
+  &__card {
+    padding:40px 0px 0px 0px;
+    max-width: 520px;
+    max-height: 180px;
+    background-color: #fff;
+    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+
+    @include for-large-up {
+      max-width: 320px;
+      max-height: 220px;
+    }
+
+    &:first-child {
+      margin-top: 60px;
+
+      @include for-large-up {
+        margin-top: 38px;
+      }
+    }
+  }
+  &__card-section {
+    padding: 40px;
+  }
+  &__card-position {
+    display: flex;
+    flex-direction: column;
+    @include for-large-up {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  &__first-title {
+    font-size: 30px;
+    line-height: 60px;
+
+    @include for-large-up {
+      margin-top: 120px;
+      align-items: center;
+    }
+  }
+  &__card-class {
+    display: flex;
+  }
+  &__description {
+    padding-left: 40px;
+  }
+  &__title {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  &__subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    color: #1967fa;
+  }
+  &__text{
+    font-weight: 400;
+    margin: 0;
+    padding: 20px 40px 20px 40px;
+    font-size: 16px;
+    line-height: 30px;
+
+    @include for-large-up {
+      padding-bottom: 20px;
+    }
+  }
+  &__img {
+    margin-right: 40px;
+    width: 40px;
+    height: 34px;
+    margin-left: auto;
+  }
+  &__icon {
+    margin-left: 500px;
+    width: 25px;
+    height: 25px;
+    @include for-large-up {
+      margin-left: 300px;
+    }
+  }
+}
+.works-card__first {
+  @include for-large-up {
+    margin-top: 50px;
+  }
+}
+.works-card__second {
+  @include for-large-up {
+    margin-top: 90px;
+  }
+}
+.works-card__third {
+  @include for-large-up {
+    margin-top: 130px;
+  }
+}
+.card-line {
+  margin: 0;
+  height: 40px;
+  width: 0px;
+  margin-left: 119px;
+  border: 1px dashed #1968fc;
+  @include for-large-up {
+    transform: none;
+    width: 70px;
+    height: 0;
+    margin: 0;
+  }
+}
+.card-line__first {
+  @include for-large-up {
+    margin-top: 160px;
+  }
+}
+.card-line__second {
+  @include for-large-up {
+    margin-top: 199px;
+  }
+}
