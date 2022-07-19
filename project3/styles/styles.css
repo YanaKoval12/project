@@ -193,7 +193,7 @@
   .footer {
     max-width: 1400px;
     display: flex;
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
 }
 .footer__button {
@@ -234,6 +234,7 @@
 @media screen and (min-width: 1400px) {
   .footer__img {
     margin: 0;
+    padding: 0;
     max-width: 90px;
     max-height: 100px;
     margin-left: 80px;
@@ -245,6 +246,8 @@
 @media screen and (min-width: 1400px) {
   .footer__logo {
     margin-left: 160px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
